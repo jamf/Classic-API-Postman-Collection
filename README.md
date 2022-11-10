@@ -26,16 +26,16 @@ This collection utilizes the following variables which should be defined within 
 ## 10.34.0 and earlier
 | Variable     | Description                                     | Example                   |
 |--------------|-------------------------------------------------|---------------------------|
-| {{url}}      | Hostname and port of the Jamf Pro environment   | company.jamfcloud.com:443 |
-| {{username}} | Username to authenticate to Jamf Pro with       | administrator             |
-| {{password}} | Password of the user authenticating to Jamf Pro | pa$$word                  |
+| url          | Hostname and port of the Jamf Pro environment   | company.jamfcloud.com:443 |
+| username     | Username to authenticate to Jamf Pro with       | administrator             |
+| password     | Password of the user authenticating to Jamf Pro | pa$$word                  |
 
 ## 10.35.0 and later
 | Variable     | Description                                               | Example                           |
 |--------------|-----------------------------------------------------------|-----------------------------------|
-| {{url}}      | Protocol, hostname and port of the Jamf Pro environment   | https://company.jamfcloud.com:443 |
-| {{username}} | Username to authenticate to Jamf Pro with                 | administrator                     |
-| {{password}} | Password of the user authenticating to Jamf Pro           | pa$$word                          |
+| url          | Protocol, hostname and port of the Jamf Pro environment   | https://company.jamfcloud.com:443 |
+| username     | Username to authenticate to Jamf Pro with                 | administrator                     |
+| password     | Password of the user authenticating to Jamf Pro           | pa$$word                          |
 
 This version of the collection utilizes scripts to manage the Bearer Token, which is a new authentication method supported in version 10.35.0 and later of Jamf Pro. Tokens will be requested as necessary, so no interaction with authentication endpoint should be necessary. For more information on authentication changes to the Classic API, see the [Jamf Developer Portal](https://developer.jamf.com/jamf-pro/docs/classic-api-authentication-changes).
 
