@@ -21,7 +21,7 @@ Use the following options to import the collection into Postman:
   - Download the JSON included in this repo and select the .json file.
 
 ## Define Environment Variables
-This collection utilizes the following variables which should be defined within one of the scopes in Postman. Jamf recommends using environments instead of global or collection variables simply for the ease of use and potential for defining different Jamf Pro environments or users. Follow Postman's documentation to [Manage Environments](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments).
+This collection utilizes the following variables which should be defined within the environment variables. Using variables at the collection level is not currently supported by the script that performs that authorization token requests. Follow Postman's documentation to [Manage Environments](https://learning.getpostman.com/docs/postman/environments_and_globals/manage_environments).
 
 ## 10.34.0 and earlier
 | Variable     | Description                                     | Example                   |
